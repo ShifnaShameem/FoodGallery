@@ -1,0 +1,94 @@
+.row{
+    height: 500px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.col{
+    /* height: 400px; */
+    width: 300px;
+    border: 1px black solid;
+    margin-bottom: 80px;
+    text-align: center;
+    color: bisque;
+    }
+.col1{
+    background-color: rgba(128, 128, 128, 0.144);
+    
+}
+.col2{
+    background-color: rgba(128, 128, 128, 0.144);
+    
+}
+.col3{
+    background-color:  rgba(128, 128, 128, 0.144);
+    
+}
+.col4{
+    background-color:  rgba(128, 128, 128, 0.144);
+
+    }
+.a1{
+    height: 700px;
+    background-image: url(./image/WhatsApp\ Image\ 2023-09-27\ at\ 6.51.18\ AM.jpeg);
+    background-repeat: no-repeat;
+/* background-position: center; */
+    background-size: 100% 100%;
+}
+.col:hover{
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+
+
+h1{
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 10px;
+    left: 300px;
+}
+.o{
+background-color: black;
+color: aliceblue;
+}
+input{
+    margin-top: 70px;
+    margin-left: 300px;
+    width: 350px;
+    
+}
+#a2{
+    margin-left: 740px;
+    margin-top: -21px;
+}
+
+#a4{
+    height: 60px;
+    width: 100px;
+    background-color: brown;
+    margin-top: -40px;
+   
+}
+body{
+    background-color: rgba(139, 0, 0, 0.863);
+}
+a:hover{
+    color: aqua;
+}
+@media (max-width:500px){
+    h1{
+        font-size: 50px;
+        margin-top: 50px;
+        left: 20px;
+    }
+
+    
+}
